@@ -1,15 +1,14 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-const DateTimePretty = Component => {
+const widthPrettyDate = Component => {
     return (...args) => {
         return Component.apply(this, args);
     };
 };
 
-DateTimePretty.propTypes = {
+widthPrettyDate.propTypes = {
     Component: PropTypes.element
 };
 
-export default DateTimePretty;
+export default widthPrettyDate;
 
